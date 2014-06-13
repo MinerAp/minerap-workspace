@@ -93,6 +93,17 @@ check_maven() {
     fi
 }
 
+make_group() {
+    echo
+    echo "Building MinerAp $1"
+
+    looparray="$1[@]"
+    for lib in "${!looparray}"
+    do
+        install_lib $lib $LOG_DIR/$1.log
+    done
+}
+
 main() {
     echo "Performing clean..."
     clean
@@ -100,34 +111,52 @@ main() {
     echo
     echo "Performing initial setup..."
     setup
-    
+
     echo
     echo "Performing initial checks..."
     check_java_executable
     check_java_ver $MIN_JAVA_VER
     check_maven
 
-    echo
-    echo "Building MinerAp core"
-    for lib in "${core[@]}"
-    do
-        install_lib $lib $LOG_DIR/core.log
-    done
-    
-    echo
-    echo "Building MinerAp primary"
-    for lib in "${primary[@]}"
-    do
-        install_lib $lib $LOG_DIR/primary.log
-    done
+    BUILD_LEVEL=$1
+
+    if [ -z $BUILD_LEVEL ]; then
+        echo
+        echo "Building entire workspace"
+
+        make_group "core"
+        make_group "primary"
+        make_group "secondary"
+
+        echo "Finished!"
+        exit
+    fi
 
     echo
-    echo "Building MinerAp secondary"
-    for lib in "${secondary[@]}"
-    do
-        install_lib $lib $LOG_DIR/secondary.log
-    done
+    echo "Build level $BUILD_LEVEL selected."
+
+    if [ $BUILD_LEVEL -ge 1 ]; then
+        make_group "core"
+    else
+        echo
+        echo "Failed to build anything."
+        echo "Specify a build level greater than 0."
+        exit 1
+    fi
+
+    if [ $BUILD_LEVEL -ge 2 ]; then
+        make_group "primary"
+    else
+        echo "Finished!"
+        exit
+    fi
+
+    if [ $BUILD_LEVEL -ge 3 ]; then
+        make_group "secondary"
+    else
+        echo "Finished!"
+        exit
+    fi
 }
 
-main
-
+main $1
