@@ -1,0 +1,18 @@
+[submodule "maven-parent"]
+	path = maven-parent
+	url = https://bitbucket.org/ashulman/maven-parent
+[submodule "bukkit-parent"]
+	path = bukkit-parent
+	url = https://bitbucket.org/ashulman/bukkit-parent
+[submodule "type-safe-collections"]
+	path = type-safe-collections
+	url = https://bitbucket.org/ashulman/type-safe-collections
+[submodule "mbapi"]
+	path = mbapi
+	url = https://bitbucket.org/ashulman/mbapi
+[submodule "mc-chimera"]
+	path = mc-chimera
+	url = https://bitbucket.org/ashulman/mc-chimera
+[submodule "mc-minerap"]
+	path = mc-minerap
+	url = https://bitbucket.org/ashulman/mc-minerap
