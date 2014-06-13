@@ -4,6 +4,7 @@
 BASE_DIR=`pwd`
 MIN_JAVA_VER=18
 LOG_DIR=$BASE_DIR/log
+TARGET_DIR=$BASE_DIR/target
 
 declare -a core=(
         "maven-parent"
@@ -28,7 +29,8 @@ declare -a secondary=(
 # Functions.
 install_lib() {
     echo "--- Compiling $1"
-    cd $1/
+    
+    cd $BASE_DIR/$1/
     rc=$?
     if [[ $rc != 0 ]]; then 
         echo "[ERROR] Failed to enter directory $1. Check $2 for more info."; exit $rc
@@ -39,22 +41,27 @@ install_lib() {
     if [[ $rc != 0 ]]; then 
         echo "[ERROR] Failed to compile $1. Check $2 for more info."; exit $rc
     fi
+    if [ -d "$BASE_DIR/$1/target/" ]; then
+        echo "--- Copying jars to target/ "
+        cp $BASE_DIR/$1/target/*.jar $TARGET_DIR
+    fi
+    
     echo "--- Compiled successfully"
 }
 
 clean() {
     echo "--- Removing log/ directory"
-    rm -rf $BASE_DIR/log/
+    rm -rf $LOG_DIR
     echo "--- Removing target/ directory"
-    rm -rf $BASE_DIR/target/
+    rm -rf $TARGET_DIR
 }
 
 setup() {
     # Initial setup.
     echo "--- Creating log/ directory"
-    mkdir -p $BASE_DIR/log/
+    mkdir -p $LOG_DIR
     echo "--- Creating target/ directory"
-    mkdir -p $BASE_DIR/target/
+    mkdir -p $TARGET_DIR
 }
 
 check_java_executable() {
@@ -128,8 +135,7 @@ main() {
         make_group "primary"
         make_group "secondary"
 
-        echo "Finished!"
-        exit
+        return
     fi
 
     echo
@@ -148,15 +154,16 @@ main() {
         make_group "primary"
     else
         echo "Finished!"
-        exit
+        return
     fi
 
     if [ $BUILD_LEVEL -ge 3 ]; then
         make_group "secondary"
     else
-        echo "Finished!"
-        exit
+        return
     fi
 }
 
 main $1
+
+echo "Finished!"
