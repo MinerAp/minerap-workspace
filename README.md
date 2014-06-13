@@ -8,7 +8,7 @@ It is intended for Linux and OS X (the central script is written in Bash), but c
 # Prerequisites
 
 * Java JDK >= 1.8.0
-* Maven => 3
+* Maven >= 3
 
 # Instructions
 
