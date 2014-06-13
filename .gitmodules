@@ -16,3 +16,24 @@
 [submodule "mc-minerap"]
 	path = mc-minerap
 	url = https://bitbucket.org/ashulman/mc-minerap
+[submodule "pearl-nerf"]
+	path = pearl-nerf
+	url = https://github.com/MinerAp/pearl-nerf
+[submodule "dueler"]
+	path = dueler
+	url = https://github.com/MinerAp/dueler
+[submodule "radio"]
+	path = radio
+	url = https://github.com/MinerAp/radio
+[submodule "block-saver"]
+	path = block-saver
+	url = https://github.com/MinerAp/block-saver
+[submodule "book-dupe"]
+	path = book-dupe
+	url = https://github.com/MinerAp/book-dupe
+[submodule "insight-web"]
+	path = insight-web
+	url = https://github.com/MinerAp/insight-web
+[submodule "insight-jdbc"]
+	path = insight-jdbc
+	url = https://github.com/MinerAp/insight-jdbc
