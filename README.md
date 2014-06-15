@@ -28,6 +28,11 @@ Optionally, when running the script, you can specify the level of plugins you wa
 
 Without the argument, everything in the workspace will be compiled.
 
+If pearl-nerf compilation fails and everything else succeeds, it is most likely because you do not have Combat Tag installed in your local repo.
+You should always check the logs first, but you can most likely resolve the issue by first running:
+
+    ./build.sh install_combat_tag
+
 # LICENSE
 
 The scripts involved in building this workspace are released under the [BSD (3-clause) license](https://github.com/MinerAp/minerap-workspace/blob/master/LICENSE) found at the root of this project.

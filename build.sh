@@ -21,10 +21,10 @@ declare -a secondary=(
         "block-saver"
         "book-dupe"
         "dueler"
-        "insight-jdbc"
-        "insight-web"
         "pearl-nerf"
         "radio"
+        "insight-jdbc"
+        "insight-web"
     )
 
 # Functions.
@@ -165,6 +165,33 @@ main() {
     fi
 }
 
-main $1
+install_combat_tag() {
+    echo
+    echo "Installing Combat Tag to maven repo..."
+
+    echo "--- Entering combat-tag/ directory"
+    cd $BASE_DIR/combat-tag/ >>$1 2>&1
+    rc=$?
+    if [[ $rc != 0 ]]; then 
+        echo "[ERROR] Failed to enter combat-tag/ directory. Check $1 for more info."; exit $rc
+    fi
+    
+    echo "--- Installing jar into maven repo"
+    mvn install:install-file \
+        -DpomFile=combat-tag-6.1.3.pom \
+        -Dfile=combat-tag-6.1.3.jar >>$1 2>&1
+    rc=$?
+    if [[ $rc != 0 ]]; then 
+        echo "[ERROR] Failed to install Combat Tag into maven repo. Check $1 for more info."; exit $rc
+    fi
+
+    echo "--- Combat Tag installation complete!"
+}
+
+if [[ "$1" == "install_combat_tag" ]]; then
+    install_combat_tag $LOG_DIR/combat_tag.log
+else
+    main $1
+fi
 
 echo "Finished!"
