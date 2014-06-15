@@ -17,6 +17,7 @@ declare -a primary=(
         "mc-chimera"
     )
 declare -a secondary=(
+        "prism"
         "block-saver"
         "book-dupe"
         "dueler"

@@ -37,3 +37,6 @@
 [submodule "insight-jdbc"]
 	path = insight-jdbc
 	url = https://github.com/MinerAp/insight-jdbc
+[submodule "prism"]
+	path = prism
+	url = https://github.com/MinerAp/Prism
