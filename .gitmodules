@@ -1,42 +1,42 @@
 [submodule "maven-parent"]
 	path = maven-parent
-	url = https://bitbucket.org/ashulman/maven-parent
+	url = git@bitbucket.org:ashulman/maven-parent
 [submodule "bukkit-parent"]
 	path = bukkit-parent
-	url = https://bitbucket.org/ashulman/bukkit-parent
+	url = git@bitbucket.org:ashulman/bukkit-parent
 [submodule "type-safe-collections"]
 	path = type-safe-collections
-	url = https://bitbucket.org/ashulman/type-safe-collections
+	url = git@bitbucket.org:ashulman/type-safe-collections
 [submodule "mbapi"]
 	path = mbapi
-	url = https://bitbucket.org/ashulman/mbapi
+	url = git@bitbucket.org:ashulman/mbapi
 [submodule "mc-chimera"]
 	path = mc-chimera
-	url = https://bitbucket.org/ashulman/mc-chimera
+	url = git@bitbucket.org:ashulman/mc-chimera
 [submodule "mc-minerap"]
 	path = mc-minerap
-	url = https://bitbucket.org/ashulman/mc-minerap
+	url = git@bitbucket.org:ashulman/mc-minerap
 [submodule "pearl-nerf"]
 	path = pearl-nerf
-	url = https://github.com/MinerAp/pearl-nerf
+	url = git@github.com:MinerAp/pearl-nerf
 [submodule "dueler"]
 	path = dueler
-	url = https://github.com/MinerAp/dueler
+	url = git@github.com:MinerAp/dueler
 [submodule "radio"]
 	path = radio
-	url = https://github.com/MinerAp/radio
+	url = git@github.com:MinerAp/radio
 [submodule "block-saver"]
 	path = block-saver
-	url = https://github.com/MinerAp/block-saver
+	url = git@github.com:MinerAp/block-saver
 [submodule "book-dupe"]
 	path = book-dupe
-	url = https://github.com/MinerAp/book-dupe
+	url = git@github.com:MinerAp/book-dupe
 [submodule "insight-web"]
 	path = insight-web
-	url = https://github.com/MinerAp/insight-web
+	url = git@github.com:MinerAp/insight-web
 [submodule "insight-jdbc"]
 	path = insight-jdbc
-	url = https://github.com/MinerAp/insight-jdbc
+	url = git@github.com:MinerAp/insight-jdbc
 [submodule "prism"]
 	path = prism
-	url = https://github.com/MinerAp/Prism
+	url = git@github.com:MinerAp/Prism
