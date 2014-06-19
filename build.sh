@@ -15,6 +15,7 @@ declare -a primary=(
         "mbapi"
         "mc-minerap"
         "mc-chimera"
+        "insight-api"
     )
 declare -a secondary=(
         "prism"
