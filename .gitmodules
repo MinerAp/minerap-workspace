@@ -43,3 +43,6 @@
 [submodule "insight-api"]
 	path = insight-api
 	url = git@bitbucket.org:ashulman/insight-api.git
+[submodule "insight"]
+	path = insight
+	url = git@bitbucket.org:ashulman/insight.git
