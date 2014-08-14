@@ -56,7 +56,7 @@ Name|Status
 [block-saver](https://github.com/MinerAp/block-saver)|[![Travis CI](https://secure.travis-ci.org/MinerAp/block-saver.png)](http://travis-ci.org/#!/MinerAp/block-saver)
 [book-dupe](https://github.com/MinerAp/book-dupe)|[![Travis CI](https://secure.travis-ci.org/MinerAp/book-dupe.png)](http://travis-ci.org/#!/MinerAp/book-dupe)
 [dueler](https://github.com/MinerAp/dueler)|[![Travis CI](https://secure.travis-ci.org/MinerAp/dueler.png)](http://travis-ci.org/#!/MinerAp/dueler)
-[ExpBottles](https://github.com/MinerAp/ExpBottles)|[![Travis CI](https://secure.travis-ci.org/MinerAp/ExpBottles.png)](http://travis-ci.org/#!/MinerAp/ExpBottles)
+[expbottles](https://github.com/MinerAp/expbottles)|[![Travis CI](https://secure.travis-ci.org/MinerAp/expbottles.png)](http://travis-ci.org/#!/MinerAp/expbottles)
 [pearl-nerf](https://github.com/MinerAp/pearl-nerf)|[![Travis CI](https://secure.travis-ci.org/MinerAp/pearl-nerf.png)](http://travis-ci.org/#!/MinerAp/pearl-nerf)
 [radio](https://github.com/MinerAp/radio)|[![Travis CI](https://secure.travis-ci.org/MinerAp/radio.png)](http://travis-ci.org/#!/MinerAp/radio)
 
