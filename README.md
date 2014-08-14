@@ -39,8 +39,8 @@ Here you can find the Travis CI build status of all MinerAp-related repositories
 
 ## Insight
 
-Name|Build Status
-----|------
+Name|Build Status|Coverage
+----|------------|--------
 [insight-parent](https://github.com/MinerAp/insight-parent)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-parent.png)](http://travis-ci.org/#!/MinerAp/insight-parent)
 [insight-api](https://github.com/MinerAp/insight-api)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-api.png)](http://travis-ci.org/#!/MinerAp/insight-api)
 [insight-jdbc](https://github.com/MinerAp/insight-jdbc)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-jdbc.png)](http://travis-ci.org/#!/MinerAp/insight-jdbc)
@@ -51,14 +51,14 @@ Name|Build Status
 [insight-parser](https://github.com/MinerAp/insight-parser)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-parser.png)](http://travis-ci.org/#!/MinerAp/insight-parser)
 
 ## Misc. Plugins
-Name|Build Status
-----|------
-[block-saver](https://github.com/MinerAp/block-saver)|[![Travis CI](https://secure.travis-ci.org/MinerAp/block-saver.png)](http://travis-ci.org/#!/MinerAp/block-saver)
-[book-dupe](https://github.com/MinerAp/book-dupe)|[![Travis CI](https://secure.travis-ci.org/MinerAp/book-dupe.png)](http://travis-ci.org/#!/MinerAp/book-dupe)
-[dueler](https://github.com/MinerAp/dueler)|[![Travis CI](https://secure.travis-ci.org/MinerAp/dueler.png)](http://travis-ci.org/#!/MinerAp/dueler)
-[expbottles](https://github.com/MinerAp/expbottles)|[![Travis CI](https://secure.travis-ci.org/MinerAp/expbottles.png)](http://travis-ci.org/#!/MinerAp/expbottles)
-[pearl-nerf](https://github.com/MinerAp/pearl-nerf)|[![Travis CI](https://secure.travis-ci.org/MinerAp/pearl-nerf.png)](http://travis-ci.org/#!/MinerAp/pearl-nerf)
-[radio](https://github.com/MinerAp/radio)|[![Travis CI](https://secure.travis-ci.org/MinerAp/radio.png)](http://travis-ci.org/#!/MinerAp/radio)
+Name|Build Status|Coverage
+----|------------|--------
+[block-saver][block-saver_repo]|[![Travis CI][block-saver_status]][block-saver_build]|[![Coverage Status][block-saver_coverage]][block-saver_coveralls]
+[book-dupe][book-dupe_repo]|[![Travis CI][book-dupe_status]][book-dupe_build]|[![Coverage Status][book-dupe_coverage]][book-dupe_coveralls]
+[dueler][dueler_repo]|[![Travis CI][dueler_status]][dueler_build]|[![Coverage Status][dueler_coverage]][dueler_coveralls]
+[expbottles][expbottles_repo]|[![Travis CI][expbottles_status]][expbottles_build]|[![Coverage Status][expbottles_coverage]][expbottles_coveralls]
+[pearl-nerf][pearl-nerf_repo]|[![Travis CI][pearl-nerf_status]][pearl-nerf_build]|[![Coverage Status][pearl-nerf_coverage]][pearl-nerf_coveralls]
+[radio][radio_repo]|[![Travis CI][radio_status]][radio_build]|[![Coverage Status][radio_coverage]][radio_coveralls]
 
 # LICENSE
 
@@ -67,3 +67,38 @@ The scripts involved in building this workspace are released under the [BSD (3-c
 All **Github-hosted** projects found in the submodules are licensed according to their included licenses.
 
 **The submodules hosted on Bitbucket are proprietary, closed-source, and are not to be released, re-distributed, or re-licensed without explicit authorization from the owners of the [MinerApocalypse server](https://minerap.com) and the collaborators of this project.**
+
+[block-saver_repo]: https://github.com/MinerAp/block-saver "block-saver repository"
+[book-dupe_repo]:   https://github.com/MinerAp/book-dupe   "book-dupe repository"
+[dueler_repo]:      https://github.com/MinerAp/dueler      "dueler repository"
+[expbottles_repo]:  https://github.com/MinerAp/expbottles  "expbottles repository"
+[pearl-nerf_repo]:  https://github.com/MinerAp/pearl-nerf  "pearl-nerf repository"
+[radio_repo]:       https://github.com/MinerAp/radio       "radio repository"
+
+[block-saver_status]: https://secure.travis-ci.org/MinerAp/block-saver.png "block-saver status"
+[book-dupe_status]:   https://secure.travis-ci.org/MinerAp/book-dupe.png   "book-dupe status"
+[dueler_status]:      https://secure.travis-ci.org/MinerAp/dueler.png      "dueler status"
+[expbottles_status]:  https://secure.travis-ci.org/MinerAp/expbottles.png  "expbottles status"
+[pearl-nerf_status]:  https://secure.travis-ci.org/MinerAp/pearl-nerf.png  "pearl-nerf status"
+[radio_status]:       https://secure.travis-ci.org/MinerAp/radio.png       "radio status"
+
+[block-saver_build]: http://travis-ci.org/#!/MinerAp/block-saver "block-saver build"
+[book-dupe_build]:   http://travis-ci.org/#!/MinerAp/book-dupe   "book-dupe build"
+[dueler_build]:      http://travis-ci.org/#!/MinerAp/dueler      "dueler build"
+[expbottles_build]:  http://travis-ci.org/#!/MinerAp/expbottles  "expbottles build"
+[pearl-nerf_build]:  http://travis-ci.org/#!/MinerAp/pearl-nerf  "pearl-nerf build"
+[radio_build]:       http://travis-ci.org/#!/MinerAp/radio       "radio build"
+
+[block-saver_coverage]: https://img.shields.io/coveralls/MinerAp/block-saver.svg "block-saver coverage"
+[book-dupe_coverage]:   https://img.shields.io/coveralls/MinerAp/book-dupe.svg   "book-dupe coverage"
+[dueler_coverage]:      https://img.shields.io/coveralls/MinerAp/dueler.svg      "dueler coverage"
+[expbottles_coverage]:  https://img.shields.io/coveralls/MinerAp/expbottles.svg  "expbottles coverage"
+[pearl-nerf_coverage]:  https://img.shields.io/coveralls/MinerAp/pearl-nerf.svg  "pearl-nerf coverage"
+[radio_coverage]:       https://img.shields.io/coveralls/MinerAp/radio.svg       "radio coverage"
+
+[block-saver_coveralls]: https://coveralls.io/r/MinerAp/block-saver?branch=master "block-saver coveralls"
+[book-dupe_coveralls]:   https://coveralls.io/r/MinerAp/book-dupe?branch=master   "book-dupe coveralls"
+[dueler_coveralls]:      https://coveralls.io/r/MinerAp/dueler?branch=master      "dueler coveralls"
+[expbottles_coveralls]:  https://coveralls.io/r/MinerAp/expbottles?branch=master  "expbottles coveralls"
+[pearl-nerf_coveralls]:  https://coveralls.io/r/MinerAp/pearl-nerf?branch=master  "pearl-nerf coveralls"
+[radio_coveralls]:       https://coveralls.io/r/MinerAp/radio?branch=master       "radio coveralls"
