@@ -33,6 +33,28 @@ You should always check the logs first, but you can most likely resolve the issu
 
     ./build.sh install_combat_tag
 
+# Status
+
+Here you can find the Travis CI build status of all MinerAp-related repositories:
+
+## Insight
+[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-parent.png)](http://travis-ci.org/#!/MinerAp/insight-parent)
+[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-api.png)](http://travis-ci.org/#!/MinerAp/insight-api)
+[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-jdbc.png)](http://travis-ci.org/#!/MinerAp/insight-jdbc)
+[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-web.png)](http://travis-ci.org/#!/MinerAp/insight-web)
+[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-cb.png)](http://travis-ci.org/#!/MinerAp/insight-cb)
+[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-common.png)](http://travis-ci.org/#!/MinerAp/insight-common)
+[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-sql.png)](http://travis-ci.org/#!/MinerAp/insight-sql)
+[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-parser.png)](http://travis-ci.org/#!/MinerAp/insight-parser)
+
+## Misc. Plugins
+[![Travis CI](https://secure.travis-ci.org/MinerAp/block-saver.png)](http://travis-ci.org/#!/MinerAp/block-saver)
+[![Travis CI](https://secure.travis-ci.org/MinerAp/book-dupe.png)](http://travis-ci.org/#!/MinerAp/book-dupe)
+[![Travis CI](https://secure.travis-ci.org/MinerAp/dueler.png)](http://travis-ci.org/#!/MinerAp/dueler)
+[![Travis CI](https://secure.travis-ci.org/MinerAp/ExpBottles.png)](http://travis-ci.org/#!/MinerAp/ExpBottles)
+[![Travis CI](https://secure.travis-ci.org/MinerAp/pearl-nerf.png)](http://travis-ci.org/#!/MinerAp/pearl-nerf)
+[![Travis CI](https://secure.travis-ci.org/MinerAp/radio.png)](http://travis-ci.org/#!/MinerAp/radio)
+
 # LICENSE
 
 The scripts involved in building this workspace are released under the [BSD (3-clause) license](https://github.com/MinerAp/minerap-workspace/blob/master/LICENSE) found at the root of this project.
