@@ -38,22 +38,27 @@ You should always check the logs first, but you can most likely resolve the issu
 Here you can find the Travis CI build status of all MinerAp-related repositories:
 
 ## Insight
-[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-parent.png)](http://travis-ci.org/#!/MinerAp/insight-parent)
-[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-api.png)](http://travis-ci.org/#!/MinerAp/insight-api)
-[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-jdbc.png)](http://travis-ci.org/#!/MinerAp/insight-jdbc)
-[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-web.png)](http://travis-ci.org/#!/MinerAp/insight-web)
-[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-cb.png)](http://travis-ci.org/#!/MinerAp/insight-cb)
-[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-common.png)](http://travis-ci.org/#!/MinerAp/insight-common)
-[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-sql.png)](http://travis-ci.org/#!/MinerAp/insight-sql)
-[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-parser.png)](http://travis-ci.org/#!/MinerAp/insight-parser)
+
+Name|Status
+----|------
+insight-parent|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-parent.png)](http://travis-ci.org/#!/MinerAp/insight-parent)
+insight-api|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-api.png)](http://travis-ci.org/#!/MinerAp/insight-api)
+insight-jdbc|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-jdbc.png)](http://travis-ci.org/#!/MinerAp/insight-jdbc)
+insight-web|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-web.png)](http://travis-ci.org/#!/MinerAp/insight-web)
+insight-cb|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-cb.png)](http://travis-ci.org/#!/MinerAp/insight-cb)
+insight-common|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-common.png)](http://travis-ci.org/#!/MinerAp/insight-common)
+insight-sql|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-sql.png)](http://travis-ci.org/#!/MinerAp/insight-sql)
+insight-parser|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-parser.png)](http://travis-ci.org/#!/MinerAp/insight-parser)
 
 ## Misc. Plugins
-[![Travis CI](https://secure.travis-ci.org/MinerAp/block-saver.png)](http://travis-ci.org/#!/MinerAp/block-saver)
-[![Travis CI](https://secure.travis-ci.org/MinerAp/book-dupe.png)](http://travis-ci.org/#!/MinerAp/book-dupe)
-[![Travis CI](https://secure.travis-ci.org/MinerAp/dueler.png)](http://travis-ci.org/#!/MinerAp/dueler)
-[![Travis CI](https://secure.travis-ci.org/MinerAp/ExpBottles.png)](http://travis-ci.org/#!/MinerAp/ExpBottles)
-[![Travis CI](https://secure.travis-ci.org/MinerAp/pearl-nerf.png)](http://travis-ci.org/#!/MinerAp/pearl-nerf)
-[![Travis CI](https://secure.travis-ci.org/MinerAp/radio.png)](http://travis-ci.org/#!/MinerAp/radio)
+Name|Status
+----|------
+block-saver|[![Travis CI](https://secure.travis-ci.org/MinerAp/block-saver.png)](http://travis-ci.org/#!/MinerAp/block-saver)
+book-dupe|[![Travis CI](https://secure.travis-ci.org/MinerAp/book-dupe.png)](http://travis-ci.org/#!/MinerAp/book-dupe)
+dueler|[![Travis CI](https://secure.travis-ci.org/MinerAp/dueler.png)](http://travis-ci.org/#!/MinerAp/dueler)
+ExpBottles|[![Travis CI](https://secure.travis-ci.org/MinerAp/ExpBottles.png)](http://travis-ci.org/#!/MinerAp/ExpBottles)
+pearl-nerf|[![Travis CI](https://secure.travis-ci.org/MinerAp/pearl-nerf.png)](http://travis-ci.org/#!/MinerAp/pearl-nerf)
+radio|[![Travis CI](https://secure.travis-ci.org/MinerAp/radio.png)](http://travis-ci.org/#!/MinerAp/radio)
 
 # LICENSE
 
