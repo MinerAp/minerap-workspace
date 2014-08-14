@@ -41,24 +41,24 @@ Here you can find the Travis CI build status of all MinerAp-related repositories
 
 Name|Status
 ----|------
-insight-parent|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-parent.png)](http://travis-ci.org/#!/MinerAp/insight-parent)
-insight-api|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-api.png)](http://travis-ci.org/#!/MinerAp/insight-api)
-insight-jdbc|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-jdbc.png)](http://travis-ci.org/#!/MinerAp/insight-jdbc)
-insight-web|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-web.png)](http://travis-ci.org/#!/MinerAp/insight-web)
-insight-cb|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-cb.png)](http://travis-ci.org/#!/MinerAp/insight-cb)
-insight-common|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-common.png)](http://travis-ci.org/#!/MinerAp/insight-common)
-insight-sql|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-sql.png)](http://travis-ci.org/#!/MinerAp/insight-sql)
-insight-parser|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-parser.png)](http://travis-ci.org/#!/MinerAp/insight-parser)
+[insight-parent](https://github.com/MinerAp/insight-parent)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-parent.png)](http://travis-ci.org/#!/MinerAp/insight-parent)
+[insight-api](https://github.com/MinerAp/insight-api)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-api.png)](http://travis-ci.org/#!/MinerAp/insight-api)
+[insight-jdbc](https://github.com/MinerAp/insight-jdbc)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-jdbc.png)](http://travis-ci.org/#!/MinerAp/insight-jdbc)
+[insight-web](https://github.com/MinerAp/insight-web)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-web.png)](http://travis-ci.org/#!/MinerAp/insight-web)
+[insight-cb](https://github.com/MinerAp/insight-cb)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-cb.png)](http://travis-ci.org/#!/MinerAp/insight-cb)
+[insight-common](https://github.com/MinerAp/insight-common)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-common.png)](http://travis-ci.org/#!/MinerAp/insight-common)
+[insight-sql](https://github.com/MinerAp/insight-sql)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-sql.png)](http://travis-ci.org/#!/MinerAp/insight-sql)
+[insight-parser](https://github.com/MinerAp/insight-parser)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-parser.png)](http://travis-ci.org/#!/MinerAp/insight-parser)
 
 ## Misc. Plugins
 Name|Status
 ----|------
-block-saver|[![Travis CI](https://secure.travis-ci.org/MinerAp/block-saver.png)](http://travis-ci.org/#!/MinerAp/block-saver)
-book-dupe|[![Travis CI](https://secure.travis-ci.org/MinerAp/book-dupe.png)](http://travis-ci.org/#!/MinerAp/book-dupe)
-dueler|[![Travis CI](https://secure.travis-ci.org/MinerAp/dueler.png)](http://travis-ci.org/#!/MinerAp/dueler)
-ExpBottles|[![Travis CI](https://secure.travis-ci.org/MinerAp/ExpBottles.png)](http://travis-ci.org/#!/MinerAp/ExpBottles)
-pearl-nerf|[![Travis CI](https://secure.travis-ci.org/MinerAp/pearl-nerf.png)](http://travis-ci.org/#!/MinerAp/pearl-nerf)
-radio|[![Travis CI](https://secure.travis-ci.org/MinerAp/radio.png)](http://travis-ci.org/#!/MinerAp/radio)
+[block-saver](https://github.com/MinerAp/block-saver)|[![Travis CI](https://secure.travis-ci.org/MinerAp/block-saver.png)](http://travis-ci.org/#!/MinerAp/block-saver)
+[book-dupe](https://github.com/MinerAp/book-dupe)|[![Travis CI](https://secure.travis-ci.org/MinerAp/book-dupe.png)](http://travis-ci.org/#!/MinerAp/book-dupe)
+[dueler](https://github.com/MinerAp/dueler)|[![Travis CI](https://secure.travis-ci.org/MinerAp/dueler.png)](http://travis-ci.org/#!/MinerAp/dueler)
+[expbottles](https://github.com/MinerAp/expbottles)|[![Travis CI](https://secure.travis-ci.org/MinerAp/expbottles.png)](http://travis-ci.org/#!/MinerAp/expbottles)
+[pearl-nerf](https://github.com/MinerAp/pearl-nerf)|[![Travis CI](https://secure.travis-ci.org/MinerAp/pearl-nerf.png)](http://travis-ci.org/#!/MinerAp/pearl-nerf)
+[radio](https://github.com/MinerAp/radio)|[![Travis CI](https://secure.travis-ci.org/MinerAp/radio.png)](http://travis-ci.org/#!/MinerAp/radio)
 
 # LICENSE
 
