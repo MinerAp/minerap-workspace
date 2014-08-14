@@ -39,7 +39,7 @@ Here you can find the Travis CI build status of all MinerAp-related repositories
 
 ## Insight
 
-Name|Status
+Name|Build Status
 ----|------
 [insight-parent](https://github.com/MinerAp/insight-parent)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-parent.png)](http://travis-ci.org/#!/MinerAp/insight-parent)
 [insight-api](https://github.com/MinerAp/insight-api)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-api.png)](http://travis-ci.org/#!/MinerAp/insight-api)
@@ -51,7 +51,7 @@ Name|Status
 [insight-parser](https://github.com/MinerAp/insight-parser)|[![Travis CI](https://secure.travis-ci.org/MinerAp/insight-parser.png)](http://travis-ci.org/#!/MinerAp/insight-parser)
 
 ## Misc. Plugins
-Name|Status
+Name|Build Status
 ----|------
 [block-saver](https://github.com/MinerAp/block-saver)|[![Travis CI](https://secure.travis-ci.org/MinerAp/block-saver.png)](http://travis-ci.org/#!/MinerAp/block-saver)
 [book-dupe](https://github.com/MinerAp/book-dupe)|[![Travis CI](https://secure.travis-ci.org/MinerAp/book-dupe.png)](http://travis-ci.org/#!/MinerAp/book-dupe)
