@@ -40,9 +40,3 @@
 [submodule "prism"]
 	path = prism
 	url = git@github.com:MinerAp/Prism
-[submodule "insight-api"]
-	path = insight-api
-	url = git@bitbucket.org:ashulman/insight-api.git
-[submodule "insight"]
-	path = insight
-	url = git@bitbucket.org:ashulman/insight.git
