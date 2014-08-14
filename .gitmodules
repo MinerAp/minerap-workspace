@@ -40,3 +40,6 @@
 [submodule "prism"]
 	path = prism
 	url = git@github.com:MinerAp/Prism
+[submodule "expbottles"]
+	path = expbottles
+	url = git@github.com:MinerAp/expbottles
