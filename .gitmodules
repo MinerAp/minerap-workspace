@@ -43,3 +43,6 @@
 [submodule "expbottles"]
 	path = expbottles
 	url = git@github.com:MinerAp/expbottles
+[submodule "spigot"]
+	path = spigot
+	url = https://github.com/SpigotMC/Spigot
