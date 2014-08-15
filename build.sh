@@ -165,6 +165,67 @@ main() {
     fi
 }
 
+install_spigot() {
+    echo
+    echo "Installing Spigot to maven repo..."
+
+    echo "--- Entering spigot/ directory"
+    cd $BASE_DIR/spigot/ >>$1 2>&1
+    rc=$?
+    if [[ $rc != 0 ]]; then 
+        echo "[ERROR] Failed to enter spigot/ directory. Check $1 for more info."; exit $rc
+    fi
+    
+    echo "--- Applying patches"
+    ./applyPatches.sh >>$1 2>&1
+    rc=$?
+    if [[ $rc != 0 ]]; then 
+        echo "[ERROR] Failed to apply Spigot patches. Check $1 for more info."; exit $rc
+    fi
+
+    echo "--- Entering spigot/Spigot-Server/ directory"
+    cd $BASE_DIR/spigot/Spigot-Server/ >>$1 2>&1
+    rc=$?
+    if [[ $rc != 0 ]]; then 
+        echo "[ERROR] Failed to enter spigot/Spigot-Server/ directory. Check $1 for more info."; exit $rc
+    fi
+
+    echo "--- Adding ams2990 remote to spigot-server"
+    git remote add ams2990 https://github.com/ams2990/CraftBukkit >>$1 2>&1
+    rc=$?
+
+    echo "--- Fetching ams2990 remote for spigot-server"
+    git fetch ams2990 >>$1 2>&1
+    rc=$?
+    if [[ $rc != 0 ]]; then 
+        echo "[ERROR] Failed to fetch ams2990 remote for spigot-server. Check $1 for more info."; exit $rc
+    fi
+
+    echo "--- Cherry-picking ams2990's commits for spigot-server"
+    git cherry-pick f11291edd9c21e8691c483151428e85af2382544 >>$1 2>&1
+    git cherry-pick 5ae0b449dff4cb92d40d4ccefc8ea10fe4ee5345 >>$1 2>&1
+    rc=$?
+    if [[ $rc != 0 ]]; then 
+        echo "[ERROR] Failed to cherry-pick ams2990's for spigot-server. Check $1 for more info."; exit $rc
+    fi
+
+    echo "--- Entering spigot/ directory"
+    cd $BASE_DIR/spigot/ >>$1 2>&1
+    rc=$?
+    if [[ $rc != 0 ]]; then 
+        echo "[ERROR] Failed to enter spigot/ directory. Check $1 for more info."; exit $rc
+    fi
+
+    echo "--- Compiling Spigot and installing to maven repo"
+    mvn clean source:jar install >>$1 2>&1
+    rc=$?
+    if [[ $rc != 0 ]]; then 
+        echo "[ERROR] Failed to compile and install Spigot. Check $1 for more info."; exit $rc
+    fi
+    
+    echo "--- Spigot installation complete!"
+}
+
 install_combat_tag() {
     echo
     echo "Installing Combat Tag to maven repo..."
@@ -187,6 +248,11 @@ install_combat_tag() {
 
     echo "--- Combat Tag installation complete!"
 }
+
+
+if [[ "$1" == "install_spigot" ]]; then
+    install_spigot $LOG_DIR/spigot.log
+fi
 
 if [[ "$1" == "install_combat_tag" ]]; then
     install_combat_tag $LOG_DIR/combat_tag.log
