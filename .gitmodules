@@ -46,3 +46,6 @@
 [submodule "spigot"]
 	path = spigot
 	url = https://github.com/SpigotMC/Spigot
+[submodule "insight-parent"]
+	path = insight-parent
+	url = git@github.com:MinerAp/insight-parent
