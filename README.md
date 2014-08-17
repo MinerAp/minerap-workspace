@@ -41,14 +41,8 @@ Here you can find the Travis CI build status of all MinerAp-related repositories
 
 Name|Build Status|Coverage
 ----|------------|--------
-[insight-parent][insight-parent_repo]|[![Travis CI][insight-parent_status]][insight-parent_build]|[![Coverage Status][insight-parent_coverage]][insight-parent_coveralls]
-[insight-api][insight-api_repo]|[![Travis CI][insight-api_status]][insight-api_build]|[![Coverage Status][insight-api_coverage]][insight-api_coveralls]
 [insight-jdbc][insight-jdbc_repo]|[![Travis CI][insight-jdbc_status]][insight-jdbc_build]|[![Coverage Status][insight-jdbc_coverage]][insight-jdbc_coveralls]
 [insight-web][insight-web_repo]|[![Travis CI][insight-web_status]][insight-web_build]|[![Coverage Status][insight-web_coverage]][insight-web_coveralls]
-[insight-cb][insight-cb_repo]|[![Travis CI][insight-cb_status]][insight-cb_build]|[![Coverage Status][insight-cb_coverage]][insight-cb_coveralls]
-[insight-common][insight-common_repo]|[![Travis CI][insight-common_status]][insight-common_build]|[![Coverage Status][insight-common_coverage]][insight-common_coveralls]
-[insight-sql][insight-sql_repo]|[![Travis CI][insight-sql_status]][insight-sql_build]|[![Coverage Status][insight-sql_coverage]][insight-sql_coveralls]
-[insight-parser][insight-parser_repo]|[![Travis CI][insight-parser_status]][insight-parser_build]|[![Coverage Status][insight-parser_coverage]][insight-parser_coveralls]
 
 ## Misc. Plugins
 Name|Build Status|Coverage
